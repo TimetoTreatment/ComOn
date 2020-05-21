@@ -1,0 +1,32 @@
+
+footer {
+    color: rgb(89,89,89);
+    width: 700px;
+    height: 100px;
+    text-align: center;
+    font-size: 14px;
+    margin: 10px auto;
+}
+
+    footer #tag {
+        width: 300px;
+        float: left;
+        font-weight: bold;
+        padding: 5px 10px;
+        text-align: right;
+    }
+
+    footer #icon {
+        float: left;
+        text-align: left;
+    }
+
+        footer #icon img:hover {
+            transform: scale(1.05, 1.05);
+        }
+
+    footer #contact {
+        float: left;
+        padding: 5px 10px;
+        text-align: left;
+    }

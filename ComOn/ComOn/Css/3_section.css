@@ -1,0 +1,118 @@
+.p_box {
+    height: 400px;
+    position: relative;
+}
+
+/* ul의 점 없애기 */
+.List {
+    list-style: none;
+}
+
+/* 전체 box */
+section {
+    border-left-width: 0;
+    border-right-width: 0;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    border-color: #BFBFBF;
+}
+
+/* 왼쪽 box */
+.leftSide {
+    position: absolute;
+    display: inline-block;
+    width: 7%;
+    height: 400px;
+    margin: 0;
+    background-color: white;
+    border-width: 0px 1px 0px 0;
+    border-style: solid;
+    border-color: #BFBFBF;
+}
+
+/* 오른쪽 box */
+.rightSide {
+    position: absolute;
+    display: inline-block;
+    width: 13%;
+    height: 400px;
+    margin: 0;
+    background-color: white;
+    border-width: 0px 0 0 1px;
+    border-style: solid;
+    border-color: #BFBFBF;
+    border-bottom-color: white;
+}
+
+/* 가운데 box */
+.center {
+    position: absolute;
+    display: inline-block;
+    position: relative;
+    left: 7%;
+    width: 80%;
+    height: 400px;
+    margin: 0;
+    background-color: white;
+    border-width: 0px 1px;
+    border-style: solid;
+    border-color: #BFBFBF;
+}
+
+/* 가운데 선 */
+.line {
+    display: inline-block;
+    margin-top: 185px;
+    padding: 0px 50px;
+    width: 90%;
+    border-top: 3px solid #BFBFBF;
+    overflow: hidden;
+    float: right;
+}
+
+/* 원 */
+
+.circle {
+    display: inline-block;
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    margin: 0 100px;
+    top: 17%;
+    background-image: url("../Assets/image/설계.png");
+    background-size: 80%;
+    background-repeat:no-repeat;
+    background-position:center;
+    border: 3px solid #BFBFBF;
+    border-radius: 110px;
+}
+
+    .circle:nth-child(1) {
+    }
+
+/* 글자 style */
+h1 {
+    position: absolute;
+    width: 80px;
+    margin: 0 165px;
+    bottom: 17%;
+    font-size: 2em;
+    text-align: center;
+    color: #7F7F7F;
+    border-bottom-style: solid;
+}
+
+/* 다음box */
+.next_botton {
+    visibility: hidden;
+    width: 120px;
+    height: 60px;
+    text-align: center;
+    font-size: 32px;
+    line-height: 60px;
+    background-color: #BFBFBF;
+    color: white;
+    font-family: sans-serif;
+    margin-top: 161px;
+    margin-left: -20%;
+}

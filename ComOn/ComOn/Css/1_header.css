@@ -1,0 +1,19 @@
+header {
+    text-align: center;
+}
+
+    header #title {
+    }
+
+    header #subtitle {
+        width: 500px;
+        height: 50px;
+        margin-bottom: 10px;
+        display: inline-block;
+        text-align: center;
+        border-bottom: solid;
+        border-bottom-width: 1px;
+        border-color: rgb(191,191,191);
+        font-size: 28px;
+        color: #7F7F7F;
+    }

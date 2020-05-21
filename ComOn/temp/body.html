@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Com On</title>
+    <style>
+
+        /* 부모 box */
+        .p_box {
+            height: 400px;
+            position: relative;
+        }
+
+        /* ul의 점 없애기 */
+        .List {
+            list-style: none;
+        }
+
+        /* 전체 box */
+        section {
+            border-left-width: 0;
+            border-right-width: 0;
+            border-top-width: 100%;
+            border-style: solid;
+            border-color: #A6A6A6;
+        }
+
+        /* 왼쪽 box */
+        .leftSide {
+            position: absolute;
+            display: inline-block;
+            width: 7%;
+            height: 400px;
+            margin: 0;
+            background-color: white;
+            border-width: 0px 3px 0px 0;
+            border-style: solid;
+            border-color: #A6A6A6;
+        }
+
+        /* 오른쪽 box */
+        .rightSide {
+            position: absolute;
+            display: inline-block;
+            width: 13%;
+            height: 400px;
+            margin: 0;
+            background-color: white;
+            border-width: 0px 0 0 3px;
+            border-style: solid;
+            border-color: #A6A6A6;
+            border-bottom-color: white;
+        }
+
+        /* 가운데 box */
+        .center {
+            position: absolute;
+            display: inline-block;
+            position: relative;
+            left: 7%;
+            width: 80%;
+            height: 400px;
+            margin: 0;
+            background-color: white;
+            border-width: 0px 3px;
+            border-style: solid;
+            border-color: #A6A6A6;
+        }
+
+        /* 가운데 선 */
+        .line {
+            display: inline-block;
+            position: absolute;
+            display: block;
+            margin-top: 185px;
+            padding: 0px 50px;
+            width: 100%;
+            border-top: 3px solid #D6DCE0;
+            overflow: hidden;
+        }
+
+        /* 원 */
+        .circle {
+            display: inline-block;
+            position: absolute;
+            width: 200px;
+            height: 200px;
+            margin: 0 100px;
+            top: 17%;
+            background-image: url("설계 100x100.png");
+            background-size: 100%;
+            border: 5px solid #A6A6A6;
+            border-radius: 110px;
+        }
+
+        /* 글자 style */
+        h1 {
+            position: absolute;
+            width: 80px;
+            margin: 0 165px;
+            bottom: 17%;
+            font-size: 2em;
+            text-align: center;
+            color: #A6A6A6;
+            border-bottom-style: solid;
+        }
+
+        /* 다음box */
+        .next_botton {
+            width: 120px;
+            height: 60px;
+            text-align: center;
+            font-size: 32px;
+            line-height: 60px;
+            background-color: rgb(107, 94, 94);
+            color: white;
+            font-family: sans-serif;
+            margin-top: 161px;
+            margin-left: -20%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+    </header>
+
+    <nav>
+    </nav>
+
+    <section class="section p_box">
+        <!--왼쪽-->
+        <div class="leftSide"></div>
+        <!--가운데-->
+        <div class="center">
+            <div class="line"></div>
+            <ul class="List">
+                <li class="p_box">
+                    <div class="set p_box">
+                        <div class="circle"></div>
+                        <h1 class="text">설계</h1>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <!--오른쪽-->
+        <div class="rightSide">
+            <div class="next_botton">다음</div>
+
+        </div>
+
+    </section>
+
+    <footer>
+    </footer>
+
+</body>
+</html>
