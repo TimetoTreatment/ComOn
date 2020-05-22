@@ -141,10 +141,12 @@
     <None Include="Css\0_global.css" />
     <None Include="Css\1_header.css" />
     <None Include="Css\2_nav.css" />
-    <None Include="Css\3_section.css" />
+    <None Include="Css\3_section_2.css" />
+    <None Include="Css\3_section_1.css" />
     <None Include="Css\4_footer.css" />
     <None Include="Css\그라가스.css" />
     <None Include="Css\김영은님.css" />
+    <None Include="Intro.html" />
     <None Include="Home.html" />
     <None Include="임효비님.htm">
       <DeploymentContent>true</DeploymentContent>

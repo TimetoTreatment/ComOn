@@ -39,11 +39,17 @@
     <None Include="임효비님.htm">
       <Filter>소스 파일</Filter>
     </None>
-    <None Include="Css\3_section.css">
-      <Filter>리소스 파일</Filter>
-    </None>
     <None Include="그라가스.html">
       <Filter>소스 파일</Filter>
+    </None>
+    <None Include="Intro.html">
+      <Filter>소스 파일</Filter>
+    </None>
+    <None Include="Css\3_section_1.css">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="Css\3_section_2.css">
+      <Filter>리소스 파일</Filter>
     </None>
   </ItemGroup>
 </Project>
