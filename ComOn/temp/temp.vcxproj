@@ -151,6 +151,7 @@
       <DeploymentContent>true</DeploymentContent>
     </None>
     <None Include="index.html" />
+    <None Include="temp.html" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

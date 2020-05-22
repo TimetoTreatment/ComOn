@@ -33,5 +33,8 @@
     <None Include="body 그라가스.htm">
       <Filter>소스 파일</Filter>
     </None>
+    <None Include="temp.html">
+      <Filter>소스 파일</Filter>
+    </None>
   </ItemGroup>
 </Project>

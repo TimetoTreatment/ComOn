@@ -45,11 +45,14 @@
     <None Include="Intro.html">
       <Filter>소스 파일</Filter>
     </None>
-    <None Include="Css\3_section_1.css">
+    <None Include="김영은님.htm">
+      <Filter>소스 파일</Filter>
+    </None>
+    <None Include="Css\3_section.css">
       <Filter>리소스 파일</Filter>
     </None>
-    <None Include="Css\3_section_2.css">
-      <Filter>리소스 파일</Filter>
+    <None Include="Test.htm">
+      <Filter>소스 파일</Filter>
     </None>
   </ItemGroup>
 </Project>

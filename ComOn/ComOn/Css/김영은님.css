@@ -1,6 +1,10 @@
+/* (변경) circle의 부모 box */
 .p_box {
+    display: inline-block; /* 옆으로 쌓기 위해 */
+    width: 400px; /* box의 가로 크기 지정 */
     height: 400px;
     position: relative;
+    border: 3px dashed red;
 }
 
 /* ul의 점 없애기 */
@@ -9,12 +13,15 @@
 }
 
 /* 전체 box */
+/* (추가) sextion을 왼쪽,오른쪽, 가운데 box의 부모 box로 설정 */
 section {
+    height: 400px; /* (추가) height 지정 */
+    position: relative; /* (추가) 자식box의 position을 absolute로 지정하기 위해 */
     border-left-width: 0;
     border-right-width: 0;
-    border-top:1px solid;
-    border-bottom:1px solid;
-    border-color: #BFBFBF;
+    border-top-width: 100%;
+    border-style: solid;
+    border-color: #A6A6A6;
 }
 
 /* 왼쪽 box */
@@ -25,9 +32,9 @@ section {
     height: 400px;
     margin: 0;
     background-color: white;
-    border-width: 0px 1px 0px 0;
+    border-width: 0px 3px 0px 0;
     border-style: solid;
-    border-color: #BFBFBF;
+    border-color: #A6A6A6;
 }
 
 /* 오른쪽 box */
@@ -38,9 +45,9 @@ section {
     height: 400px;
     margin: 0;
     background-color: white;
-    border-width: 0px 0 0 1px;
+    border-width: 0px 0 0 3px;
     border-style: solid;
-    border-color: #BFBFBF;
+    border-color: #A6A6A6;
     border-bottom-color: white;
 }
 
@@ -54,39 +61,36 @@ section {
     height: 400px;
     margin: 0;
     background-color: white;
-    border-width: 0px 1px;
+    border-width: 0px 3px;
     border-style: solid;
-    border-color: #BFBFBF;
+    border-color: #A6A6A6;
 }
 
 /* 가운데 선 */
 .line {
     display: inline-block;
+    position: absolute;
+    display: block;
     margin-top: 185px;
     padding: 0px 50px;
-    width: 90%;
-    border-top: 3px solid #BFBFBF;
+    width: 100%;
+    border-top: 3px solid #D6DCE0;
     overflow: hidden;
-    float: right;
 }
 
 /* 원 */
-
 .circle {
     display: inline-block;
     position: absolute;
     width: 200px;
     height: 200px;
-    margin: 0 100px;
-    top: 17%;
+    top: 17%; /* (주석추가) circle의 위아래 위치 */
+    left: 25%; /* (추가) p_box의  가운데로 정렬*/
     background-image: url("설계 100x100.png");
     background-size: 100%;
-    border: 3px solid #BFBFBF;
+    border: 5px solid #A6A6A6;
     border-radius: 110px;
 }
-
-    .circle:nth-child(1) {
-    }
 
 /* 글자 style */
 h1 {
@@ -96,19 +100,18 @@ h1 {
     bottom: 17%;
     font-size: 2em;
     text-align: center;
-    color: #BFBFBF;
+    color: #A6A6A6;
     border-bottom-style: solid;
 }
 
 /* 다음box */
 .next_botton {
-    visibility: hidden;
     width: 120px;
     height: 60px;
     text-align: center;
     font-size: 32px;
     line-height: 60px;
-    background-color: #BFBFBF;
+    background-color: rgb(107, 94, 94);
     color: white;
     font-family: sans-serif;
     margin-top: 161px;
