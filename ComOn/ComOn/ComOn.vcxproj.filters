@@ -33,9 +33,6 @@
     <None Include="Intro.html">
       <Filter>소스 파일</Filter>
     </None>
-    <None Include="김영은님.htm">
-      <Filter>소스 파일</Filter>
-    </None>
     <None Include="Css\3_section.css">
       <Filter>리소스 파일</Filter>
     </None>

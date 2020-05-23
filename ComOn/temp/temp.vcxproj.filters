@@ -14,27 +14,4 @@
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
   </ItemGroup>
-  <ItemGroup>
-    <None Include="index.html">
-      <Filter>소스 파일</Filter>
-    </None>
-    <None Include="css\style.css">
-      <Filter>리소스 파일</Filter>
-    </None>
-    <None Include="1.htm">
-      <Filter>소스 파일</Filter>
-    </None>
-    <None Include="footer.htm">
-      <Filter>소스 파일</Filter>
-    </None>
-    <None Include="body.html">
-      <Filter>소스 파일</Filter>
-    </None>
-    <None Include="body 그라가스.htm">
-      <Filter>소스 파일</Filter>
-    </None>
-    <None Include="temp.html">
-      <Filter>소스 파일</Filter>
-    </None>
-  </ItemGroup>
 </Project>
