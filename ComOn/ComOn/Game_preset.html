@@ -9,41 +9,45 @@
     <link rel="stylesheet" href="Css/4_footer.css" />
 
     <style>
+
         /* 각 항목 사이의 공간 넓히기 */
         section .menu {
             margin: 0 70px;
         }
 
-        /* 항목 -> 글자 크기 변경 */
-        section .menu #set_name {
-            font-size: 1em;
-        }
+            /* 항목 -> 글자 크기 변경 */
+            section .menu #set_name {
+                font-size: 1em;
+            }
 
         /* center-line 길이 조정 */
         section #center-line {
             width: 70%;
         }
-        .page_move{
-          margin-left: 70%;
+
+        .page_move {
+            margin-left: 70%;
         }
-        .info-submit{
-          height: 50px;
-          width: 50px;
-          margin-left: 70%;
+
+        .info-submit {
+            height: 50px;
+            width: 50px;
+            margin-left: 70%;
         }
 
         .choice {
-          margin-left: 25%;
+            margin-left: 25%;
         }
 
-        .Computer_level img{
-          margin-top: 5%;
-          width: 100px;
-          height: 100px;
+        .Computer_level img {
+            margin-top: 5%;
+            width: 100px;
+            height: 100px;
         }
-        .choice> input {
-          border: hidden;
-          margin: 10% 30px;
+
+        .choice > input {
+            border: hidden;
+            margin: 10% 30px;
         }
     </style>
 
@@ -80,16 +84,17 @@
         <div class="layout" id="middle-box">
             <div id="left-margin-box"></div>
             <div id="center-line"></div>
-            <form class="Computer_level"> <!-- 데이터 전달해줘야 함 -->
-              <span class="choice">
-                <input type="radio" id="bestperformance" name="컴퓨터수준" value="best"></input>
-                <label for="bestperformance"><img src="Assets/image/최고성능.png" alt="최고성능"/></label>
-                <input type="radio" id="cleanperformance" name="컴퓨터수준" value="clean"></input>
-                <label for="cleanperformance"><img src="Assets/image/원활옵션.png" alt="원활성능"/></label>
-              </span>
-              <div class="info-submit">
-                <input type="submit" name="컴퓨터수준">
-              </div>
+            <form class="Computer_level">
+                <!-- 데이터 전달해줘야 함 -->
+                <span class="choice">
+                    <input type="radio" id="bestperformance" name="컴퓨터수준" value="best">
+                    <label for="bestperformance"><img src="Assets/image/최고성능.png" alt="최고성능" /></label>
+                    <input type="radio" id="cleanperformance" name="컴퓨터수준" value="clean">
+                    <label for="cleanperformance"><img src="Assets/image/원활옵션.png" alt="원활성능" /></label>
+                </span>
+                <div class="info-submit">
+                    <input type="submit" name="컴퓨터수준">
+                </div>
             </form>
             <a href="Check_Parts.html"><button class="page_move" type="button" name="next_stage">다음 단계로</button></a>
         </div>

@@ -6,3 +6,11 @@
 a {
     text-decoration: none;
 }
+
+/* 김영은님
+
+section .menu:hover {
+    opacity: 0.8;
+    transition: opacity 0.2s;
+}
+*/

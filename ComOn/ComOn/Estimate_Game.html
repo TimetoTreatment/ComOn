@@ -9,40 +9,42 @@
     <link rel="stylesheet" href="Css/4_footer.css" />
 
     <style>
+
         /* 각 항목 사이의 공간 넓히기 */
         section .menu {
             margin: 0 70px;
         }
 
-        /* 항목 -> 글자 크기 변경 */
-        section .menu #set_name {
-            font-size: 1em;
-        }
+            /* 항목 -> 글자 크기 변경 */
+            section .menu #set_name {
+                font-size: 1em;
+            }
 
         /* center-line 길이 조정 */
         section #center-line {
             width: 70%;
         }
 
-        .page_move{
-          margin-left: 70%;
+        .page_move {
+            margin-left: 70%;
         }
 
-        .info-submit{
-          height: 50px;
-          width: 50px;
-          margin-left:70%;
+        .info-submit {
+            height: 50px;
+            width: 50px;
+            margin-left: 70%;
         }
 
         .choice {
-          margin-top: 10%;
-          margin-left: 100px;
+            margin-top: 10%;
+            margin-left: 100px;
         }
-        .choice> input {
-          border: hidden;
-          font-size: 24px;
-          margin: 15% 30px;
-        }
+
+            .choice > input {
+                border: hidden;
+                font-size: 24px;
+                margin: 15% 30px;
+            }
     </style>
 
 </head>
@@ -79,16 +81,17 @@
             <div id="left-margin-box"></div>
             <div id="center-line"></div>
 
-            <form class="Game_level"> <!-- 데이터 전달해줘야 함 -->
-              <span class="choice">
-                <input type="radio" name="게임수준" value="highest">최고사양</input>
-                <input type="radio" name="게임수준" value="high">고사양</input>
-                <input type="radio" name="게임수준" value="middle">중간사양</input>
-                <input type="radio" name="게임수준" value="low">저사양</input>
-              </span>
-              <div class="info-submit">
-                <input type="submit" name="게임수준">
-              </div>
+            <form class="Game_level">
+                <!-- 데이터 전달해줘야 함 -->
+                <span class="choice">
+                    <input type="radio" name="게임수준" value="highest">최고사양
+                    <input type="radio" name="게임수준" value="high">고사양
+                    <input type="radio" name="게임수준" value="middle">중간사양
+                    <input type="radio" name="게임수준" value="low">저사양
+                </span>
+                <div class="info-submit">
+                    <input type="submit" name="게임수준">
+                </div>
             </form>
             <a href="Game_preset.html"><button class="page_move" type="button" name="next_stage">다음 단계로</button></a>
         </div>

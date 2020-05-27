@@ -138,6 +138,25 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <None Include="HTMLPage.htm">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="Parts\KnowParts.html" />
+    <None Include="Parts\MainParts.html" />
+    <None Include="Parts\MainParts_CPU.html" />
+    <None Include="Parts\MainParts_GPU.html" />
+    <None Include="Parts\MainParts_RAM.html" />
+    <None Include="Parts\MainParts_StorageDevice.html" />
+    <None Include="Parts\OtherParts.html" />
+    <None Include="Parts\OtherParts_Case.html" />
+    <None Include="Parts\OtherParts_Cooler.html" />
+    <None Include="Parts\OtherParts_PowerSupply.html" />
+    <None Include="Parts\PeriheralDevice.html" />
+    <None Include="Parts\PeriheralDevice_Headset.html" />
+    <None Include="Parts\PeriheralDevice_Keyboard.html" />
+    <None Include="Parts\PeriheralDevice_Moniter.html" />
+    <None Include="Parts\PeriheralDevice_Mouse.html" />
+    <None Include="Parts\PeriheralDevice_Speaker.html" />
     <None Include="_3_section_list 예제.html" />
     <None Include="Change_Case.html" />
     <None Include="Change_Cooler.html" />
@@ -149,7 +168,6 @@
     <None Include="Change_Side.html" />
     <None Include="Change_Sub.html" />
     <None Include="Check_Parts.html" />
-    <None Include="Chnage_Power.html" />
     <None Include="Css\0_global.css" />
     <None Include="Css\1_header.css" />
     <None Include="Css\2_nav.css" />
@@ -164,7 +182,6 @@
     <None Include="Game_preset.html" />
     <None Include="Home.html" />
     <None Include="Intro.html" />
-    <None Include="KnowParts.html" />
     <None Include="MainParts.html" />
     <None Include="MainParts_CPU.html" />
     <None Include="OtherParts.html" />

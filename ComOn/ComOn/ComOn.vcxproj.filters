@@ -11,6 +11,9 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="KnowParts">
+      <UniqueIdentifier>{ea2a7d3e-f1cb-492e-b82a-56c6ca4b348b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <None Include="Css\1_header.css">
@@ -61,9 +64,6 @@
     <None Include="Check_Parts.html">
       <Filter>페이지</Filter>
     </None>
-    <None Include="Chnage_Power.html">
-      <Filter>페이지</Filter>
-    </None>
     <None Include="Estimate_Broadcast.html">
       <Filter>페이지</Filter>
     </None>
@@ -80,9 +80,6 @@
       <Filter>페이지</Filter>
     </None>
     <None Include="Game_preset.html">
-      <Filter>페이지</Filter>
-    </None>
-    <None Include="KnowParts.html">
       <Filter>페이지</Filter>
     </None>
     <None Include="MainParts.html">
@@ -120,6 +117,57 @@
     </None>
     <None Include="_3_section_list 예제.html">
       <Filter>페이지</Filter>
+    </None>
+    <None Include="Parts\MainParts_GPU.html">
+      <Filter>KnowParts</Filter>
+    </None>
+    <None Include="Parts\MainParts_RAM.html">
+      <Filter>KnowParts</Filter>
+    </None>
+    <None Include="Parts\MainParts_StorageDevice.html">
+      <Filter>KnowParts</Filter>
+    </None>
+    <None Include="Parts\OtherParts.html">
+      <Filter>KnowParts</Filter>
+    </None>
+    <None Include="Parts\OtherParts_Case.html">
+      <Filter>KnowParts</Filter>
+    </None>
+    <None Include="Parts\OtherParts_Cooler.html">
+      <Filter>KnowParts</Filter>
+    </None>
+    <None Include="Parts\OtherParts_PowerSupply.html">
+      <Filter>KnowParts</Filter>
+    </None>
+    <None Include="Parts\PeriheralDevice.html">
+      <Filter>KnowParts</Filter>
+    </None>
+    <None Include="Parts\PeriheralDevice_Headset.html">
+      <Filter>KnowParts</Filter>
+    </None>
+    <None Include="Parts\PeriheralDevice_Keyboard.html">
+      <Filter>KnowParts</Filter>
+    </None>
+    <None Include="Parts\PeriheralDevice_Moniter.html">
+      <Filter>KnowParts</Filter>
+    </None>
+    <None Include="Parts\PeriheralDevice_Mouse.html">
+      <Filter>KnowParts</Filter>
+    </None>
+    <None Include="Parts\PeriheralDevice_Speaker.html">
+      <Filter>KnowParts</Filter>
+    </None>
+    <None Include="Parts\KnowParts.html">
+      <Filter>KnowParts</Filter>
+    </None>
+    <None Include="Parts\MainParts.html">
+      <Filter>KnowParts</Filter>
+    </None>
+    <None Include="Parts\MainParts_CPU.html">
+      <Filter>KnowParts</Filter>
+    </None>
+    <None Include="HTMLPage.htm">
+      <Filter>KnowParts</Filter>
     </None>
   </ItemGroup>
 </Project>

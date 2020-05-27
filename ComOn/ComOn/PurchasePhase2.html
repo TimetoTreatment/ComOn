@@ -2,46 +2,57 @@
 <html>
 <head>
     <title>Com On</title>
-    <link rel="stylesheet" href="../Css/0_global.css" />
-    <link rel="stylesheet" href="../Css/1_header.css" />
-    <link rel="stylesheet" href="../Css/2_nav.css" />
-    <link rel="stylesheet" href="../Css/3_section_list.css">
-    <link rel="stylesheet" href="../Css/4_footer.css" />
+    <link rel="stylesheet" href="Css/0_global.css" />
+    <link rel="stylesheet" href="Css/1_header.css" />
+    <link rel="stylesheet" href="Css/2_nav.css" />
+    <link rel="stylesheet" href="Css/3_section_list.css">
+    <link rel="stylesheet" href="Css/4_footer.css" />
 
     <style>
 
-      div #top-name {
-        width: 200px;
-        height: 100px;
-        text-align: center;
-      }
+        div #top-name {
+            width: 200px;
+            height: 100px;
+            text-align: center;
+        }
 
-      .font_bold{
-        font-weight: bold;
-      }
+        div #middle-name {
+            position: relative;
+            width: 200px;
+            height: 100px;
+            font-size: 30px;
+            color: blue;
+            margin-left: 325px;
+            margin-top: -90px;
+            text-align: center;
+        }
 
-      section .menu #set-name-a {
-          position: absolute;
-          width: 200px;
-          border-bottom: 2px solid #7F7F7F;
-          bottom: 8%;
-          margin-left: 5px;
-          color: #7F7F7F;
-          font-size: 2em;
-          text-align: center;
-      }
+        .font_bold {
+            font-weight: bold;
+        }
 
-      section #table{
-        position: absolute;
-        top: 42%;
-        font-size: 22px;
-        text-align: center;
-      }
+        section .menu #set-name-a {
+            position: absolute;
+            width: 200px;
+            border-bottom: 2px solid #7F7F7F;
+            bottom: 8%;
+            margin-left: 5px;
+            color: #7F7F7F;
+            font-size: 2em;
+            text-align: center;
+        }
 
-      .background_color_gray{
-        background-color: gray;
-        color: white;
-      }
+        section #table {
+            position: absolute;
+            top: 42%;
+            font-size: 27px;
+            text-align: center;
+        }
+
+        .background_color_gray {
+            background-color: gray;
+            color: white;
+        }
 
         section .menu {
             margin: 0 70px;
@@ -63,32 +74,31 @@
             border-left: 0;
             border-right: 0;
         }
-
     </style>
 
 </head>
 <body>
     <header>
         <div id="title">
-            <a href="../Home.html"><img src="../Assets/image/로고_ON.png" alt="홈페이지" /></a>
+            <a href="Home.html"><img src="Assets/image/로고_OFF.png" alt="홈페이지" /></a>
         </div>
         <div id="subtitle">
-            Main PC Parts
+            Buy Your Computer
         </div>
     </header>
 
     <nav>
-        <a href="../Estimate_Game.html">
-            <img src="../Assets/image/게임용_Off.png" alt="게임용" />
+        <a href="Estimate_Game.html">
+            <img src="Assets/image/게임용_Off.png" alt="게임용" />
         </a>
-        <a href="../Estimate_Office.html">
-            <img src="../Assets/image/사무용_Off.png" alt="사무용" />
+        <a href="Estimate_Office.html">
+            <img src="Assets/image/사무용_Off.png" alt="사무용" />
         </a>
-        <a href="../Estimate_Business.html">
-            <img src="../Assets/image/작업용_Off.png" alt="작업용" />
+        <a href="Estimate_Business.html">
+            <img src="Assets/image/작업용_On.png" alt="작업용" />
         </a>
-        <a href="../Estimate_Broadcast.html">
-            <img src="../Assets/image/방송용_Off.png" alt="방송용" />
+        <a href="Estimate_Broadcast.html">
+            <img src="Assets/image/방송용_Off.png" alt="방송용" />
         </a>
     </nav>
 
@@ -99,25 +109,26 @@
             <div id="center-line"></div>
 
             <div class="menu">
-                <div id="top-name"></br>운영체제 및 프로그램</br><a class="font_bold">Software</a></div>
+                <div id="top-name"><br>운영체제 및 프로그램<a class="font_bold">Software</a></div>
+                <div id="middle-name">★운영체제</div>
                 <div id="circle"></div>
                 <h1 id="set-name-a">150,000\</h1>
             </div>
         </div>
         <div class="layout" id="middle-box-2">
-          <table id="table">
-            <tr>
-              <th>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</th>
-              <th class="background_color_gray">&nbsp&nbsp150,000\&nbsp&nbsp</th>
-              <td><a href="구매사이트연결phase3.html">&nbsp&nbspMicrosoft Windows 10 Home&nbsp&nbsp</a></td>
-              <th class="background_color_gray">&nbsp&nbsp삭제&nbsp&nbsp</th>
-              <th >&nbsp&nbsp&nbsp&nbsp</th>
-            </tr>
-          </table>
-          </div>
-          <div class="layout" id="page-right-margin">
-              <div id="button"><a href="구매사이트연결phase1.html">이전</a></div>
-          </div>
+            <table id="table">
+                <tr>
+                    <th>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</th>
+                    <th class="background_color_gray">&nbsp&nbsp150,000\&nbsp&nbsp</th>
+                    <td><a href="PurchasePhase3.html">&nbsp&nbspMicrosoft Windows 10 Home&nbsp&nbsp</a></td>
+                    <th class="background_color_gray">&nbsp&nbsp삭제&nbsp&nbsp</th>
+                    <th>&nbsp&nbsp&nbsp&nbsp</th>
+                </tr>
+            </table>
+        </div>
+        <div class="layout" id="page-right-margin">
+            <div id="button"><a href="PurchasePhase1.html">이전</a></div>
+        </div>
     </section>
 
     <footer>
@@ -127,7 +138,7 @@
         </div>
         <div id="icon">
             <span data-toggle="tooltip" data-placement="bottom" title="김영은 & 우은혁 & 윤건호 & 임효비">
-                <img src="../Assets/image/Contact.png" />
+                <img src="Assets/image/Contact.png" />
             </span>
         </div>
         <div id="contact">

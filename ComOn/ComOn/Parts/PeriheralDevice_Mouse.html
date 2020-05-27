@@ -2,23 +2,17 @@
 <html>
 <head>
     <title>Com On</title>
-    <link rel="stylesheet" href="Css/0_global.css" />
-    <link rel="stylesheet" href="Css/1_header.css" />
-    <link rel="stylesheet" href="Css/2_nav.css" />
-    <link rel="stylesheet" href="Css/3_section_list.css">
-    <link rel="stylesheet" href="Css/4_footer.css" />
+    <link rel="stylesheet" href="../Css/0_global.css" />
+    <link rel="stylesheet" href="../Css/1_header.css" />
+    <link rel="stylesheet" href="../Css/2_nav.css" />
+    <link rel="stylesheet" href="../Css/3_section_list.css">
+    <link rel="stylesheet" href="../Css/4_footer.css" />
 
     <style>
-
         /* 항목이 중앙에 위치하도록 margin 조정 */
         section .menu {
             margin: 0 70px;
         }
-
-            /* 항목 -> 글자 크기 변경 */
-            section .menu #set_name {
-                font-size: 1em;
-            }
 
         /* center-line 길이 조정 */
         section #center-line {
@@ -29,6 +23,11 @@
         section #middle-box {
             width: 25%; /* 넓이 조정 */
             border-right: 1px solid #BFBFBF;
+        }
+
+        /* menu 크기 조정 */
+        section .menu {
+            width: 200px;
         }
 
         /* 부품설명 box */
@@ -68,25 +67,25 @@
 <body>
     <header>
         <div id="title">
-            <a href="Home.html"><img src="Assets/image/로고_ON.png" alt="홈페이지" /></a>
+            <a href="../Home.html"><img src="../Assets/image/로고_ON.png" alt="홈페이지" /></a>
         </div>
         <div id="subtitle">
-            Main PC Parts
+            Periheral Device
         </div>
     </header>
 
     <nav>
-        <a href="Estimate_Game.html">
-            <img src="Assets/image/게임용_Off.png" alt="게임용" />
+        <a href="../Estimate_Game.html">
+            <img src="../Assets/image/게임용_Off.png" alt="게임용" />
         </a>
-        <a href="Estimate_Office.html">
-            <img src="Assets/image/사무용_Off.png" alt="사무용" />
+        <a href="../Estimate_Office.html">
+            <img src="../Assets/image/사무용_Off.png" alt="사무용" />
         </a>
-        <a href="Estimate_Business.html">
-            <img src="Assets/image/작업용_Off.png" alt="작업용" />
+        <a href="../Estimate_Business.html">
+            <img src="../Assets/image/작업용_Off.png" alt="작업용" />
         </a>
-        <a href="Estimate_Broadcast.html">
-            <img src="Assets/image/방송용_Off.png" alt="방송용" />
+        <a href="../Estimate_Broadcast.html">
+            <img src="../Assets/image/방송용_Off.png" alt="방송용" />
         </a>
     </nav>
 
@@ -100,15 +99,15 @@
 
             <div class="menu">
                 <div id="circle"></div>
-                <h1 id="set-name">CPU</h1>
+                <h1 id="set-name">마우스</h1>
             </div>
         </div>
         <!--부품 설명-->
         <div class="layout" id="middle-box-2">
             <div id="bulb-img">
-                <img src="Assets/image/전구.png">
+                <img src="../Assets/image/전구.png">
             </div>
-            <div id="part-name">Central Processing Unit</div>
+            <div id="part-name">Mouse</div>
             <div id="List">
                 <ol id="part-inform">
                     <li id="inform">
@@ -137,7 +136,7 @@
         </div>
         <div id="icon">
             <span data-toggle="tooltip" data-placement="bottom" title="김영은 & 우은혁 & 윤건호 & 임효비">
-                <img src="Assets/image/Contact.png" />
+                <img src="../Assets/image/Contact.png" />
             </span>
         </div>
         <div id="contact">

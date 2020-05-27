@@ -51,7 +51,7 @@ section {
         height: inherit;
         width: 14%;
         margin: 0 20px; /* 각 항목 사이의 공간 */
-        padding:0 30px;
+        padding: 0 30px;
     }
 
         /* 항목 -> 원 */
@@ -68,12 +68,13 @@ section {
         }
 
         /* 항목 -> 글자 */
+        /* width와 margin 변경 */
         section .menu #set-name {
-            position: absolute;
-            width: 100px; /* 밑줄 길이 */
+            width: -webkit-max-content; /* Chrome */
+            width: max-content;
             border-bottom: 2px solid #7F7F7F;
             bottom: 8%; /* 아래 여백 */
-            margin-left: 55px; /* 왼쪽 여백 */
+            margin: 300px auto 0 auto; /* 가운데 위치 */
             color: #7F7F7F;
             font-size: 2em;
             text-align: center;
