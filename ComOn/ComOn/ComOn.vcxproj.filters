@@ -1,13 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Filter Include="소스 파일">
-      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
-      <Extensions>cpp;c;cc;cxx;c++;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    <Filter Include="페이지">
+      <UniqueIdentifier>{f22a95e0-b3f0-44f1-8a27-925a47bbe800}</UniqueIdentifier>
     </Filter>
-    <Filter Include="헤더 파일">
-      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
-      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    <Filter Include="시작 페이지">
+      <UniqueIdentifier>{5abd9b96-8005-4204-9454-a83c384d7e38}</UniqueIdentifier>
     </Filter>
     <Filter Include="리소스 파일">
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
@@ -15,9 +13,6 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Home.html">
-      <Filter>소스 파일</Filter>
-    </None>
     <None Include="Css\1_header.css">
       <Filter>리소스 파일</Filter>
     </None>
@@ -30,20 +25,101 @@
     <None Include="Css\0_global.css">
       <Filter>리소스 파일</Filter>
     </None>
-    <None Include="Intro.html">
-      <Filter>소스 파일</Filter>
-    </None>
     <None Include="Css\3_section.css">
       <Filter>리소스 파일</Filter>
-    </None>
-    <None Include="_MainFrame.htm">
-      <Filter>소스 파일</Filter>
     </None>
     <None Include="Css\3_section_list.css">
       <Filter>리소스 파일</Filter>
     </None>
-    <None Include="3_section_list 예제.html">
-      <Filter>소스 파일</Filter>
+    <None Include="Change_Case.html">
+      <Filter>페이지</Filter>
+    </None>
+    <None Include="Change_Cooler.html">
+      <Filter>페이지</Filter>
+    </None>
+    <None Include="Change_CPU.html">
+      <Filter>페이지</Filter>
+    </None>
+    <None Include="Change_GPU.html">
+      <Filter>페이지</Filter>
+    </None>
+    <None Include="Change_HD.html">
+      <Filter>페이지</Filter>
+    </None>
+    <None Include="Change_Main.html">
+      <Filter>페이지</Filter>
+    </None>
+    <None Include="Change_RAM.html">
+      <Filter>페이지</Filter>
+    </None>
+    <None Include="Change_Side.html">
+      <Filter>페이지</Filter>
+    </None>
+    <None Include="Change_Sub.html">
+      <Filter>페이지</Filter>
+    </None>
+    <None Include="Check_Parts.html">
+      <Filter>페이지</Filter>
+    </None>
+    <None Include="Chnage_Power.html">
+      <Filter>페이지</Filter>
+    </None>
+    <None Include="Estimate_Broadcast.html">
+      <Filter>페이지</Filter>
+    </None>
+    <None Include="Estimate_Business.html">
+      <Filter>페이지</Filter>
+    </None>
+    <None Include="Estimate_Confirm.html">
+      <Filter>페이지</Filter>
+    </None>
+    <None Include="Estimate_Game.html">
+      <Filter>페이지</Filter>
+    </None>
+    <None Include="Estimate_Office.html">
+      <Filter>페이지</Filter>
+    </None>
+    <None Include="Game_preset.html">
+      <Filter>페이지</Filter>
+    </None>
+    <None Include="KnowParts.html">
+      <Filter>페이지</Filter>
+    </None>
+    <None Include="MainParts.html">
+      <Filter>페이지</Filter>
+    </None>
+    <None Include="MainParts_CPU.html">
+      <Filter>페이지</Filter>
+    </None>
+    <None Include="OtherParts.html">
+      <Filter>페이지</Filter>
+    </None>
+    <None Include="PeriheralDevice.html">
+      <Filter>페이지</Filter>
+    </None>
+    <None Include="PresentEstimate.html">
+      <Filter>페이지</Filter>
+    </None>
+    <None Include="PurchasePhase1.html">
+      <Filter>페이지</Filter>
+    </None>
+    <None Include="PurchasePhase2.html">
+      <Filter>페이지</Filter>
+    </None>
+    <None Include="PurchasePhase3.html">
+      <Filter>페이지</Filter>
+    </None>
+    <None Include="Home.html">
+      <Filter>시작 페이지</Filter>
+    </None>
+    <None Include="Intro.html">
+      <Filter>시작 페이지</Filter>
+    </None>
+    <None Include="_MainFrame.htm">
+      <Filter>페이지</Filter>
+    </None>
+    <None Include="_3_section_list 예제.html">
+      <Filter>페이지</Filter>
     </None>
   </ItemGroup>
 </Project>

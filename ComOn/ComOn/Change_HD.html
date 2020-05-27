@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Com On</title>
+    <link rel="stylesheet" href="Css/0_global.css" />
+    <link rel="stylesheet" href="Css/1_header.css" />
+    <link rel="stylesheet" href="Css/2_nav.css" />
+    <link rel="stylesheet" href="Css/3_section_list.css">
+    <link rel="stylesheet" href="Css/4_footer.css" />
+
+    <style>
+        /* 각 항목 사이의 공간 넓히기 */
+        section .menu {
+            margin: 0 70px;
+        }
+
+        /* 항목 -> 글자 크기 변경 */
+        section .menu #set_name {
+            font-size: 1em;
+        }
+
+        /* center-line 길이 조정 */
+        section #center-line {
+            width: 70%;
+        }
+        .page_move{
+          text: center-align;
+          margin-left: 70%;
+        }
+
+        .change_what{
+          margin-bottom:5%;
+        }
+
+        .change_what img{
+          margin-top: 30px;
+          margin-left: 5%;
+          width: 150px;
+          height: 180px;
+        }
+      }
+    </style>
+
+</head>
+<body>
+    <header>
+        <div id="title">
+            <a href="Home.html"><img src="Assets/image/로고_ON.png" alt="홈페이지" /></a>
+        </div>
+        <div id="subtitle">
+            견적 확인 및 수정
+        </div>
+    </header>
+
+    <nav>
+        <a href="Estimate_Game.html">
+            <img src="Assets/image/게임용_Off.png" alt="게임용" />
+        </a>
+        <a href="Estimate_Office.html">
+            <img src="Assets/image/사무용_Off.png" alt="사무용" />
+        </a>
+        <a href="Estimate_Business.html">
+            <img src="Assets/image/작업용_Off.png" alt="작업용" />
+        </a>
+        <a href="Estimate_Broadcast.html">
+            <img src="Assets/image/방송용_Off.png" alt="방송용" />
+        </a>
+    </nav>
+
+    <section>
+        <!--왼쪽 더미 공간 -->
+        <div class="layout" id="page-left-margin"></div>
+        <!--가운데-->
+        <div class="layout" id="middle-box">
+          <div id="left-margin-box"></div>
+
+          <p>사용자의 현재 메모리와 바꿀 수 있는 메모리 선택지, 또는 전체 프리셋을 제공합니다.</p>
+          <a href="Check_Parts.html"><button class="page_move" type="button" name="next_stage">수정 완료</button></a>
+        </div>
+        <!--오른쪽 더미 공간 -->
+        <div class="layout" id="page-right-margin"></div>
+    </section>
+
+    <footer>
+        <div id="tag">
+            #ComOnPC<br /><br />
+            #DesignYourOwnPC
+        </div>
+        <div id="icon">
+            <span data-toggle="tooltip" data-placement="bottom" title="김영은 & 우은혁 & 윤건호 & 임효비">
+                <img src="Assets/image/Contact.png" />
+            </span>
+        </div>
+        <div id="contact">
+            서울시 광진구 능동로 209 세종대학교<br /><br />
+            010 - 1234 - 1234
+        </div>
+    </footer>
+
+    <script>
+        $(function () {
+            $('[data-toggle="tooltip"]').tooltip()
+        })
+    </script>
+</body>
+</html>
