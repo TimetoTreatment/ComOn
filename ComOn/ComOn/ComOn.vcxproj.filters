@@ -25,17 +25,65 @@
     <None Include="Css\3_section_list.css">
       <Filter>리소스 파일</Filter>
     </None>
+    <None Include="Css\home.css">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="Css\intro.css">
+      <Filter>리소스 파일</Filter>
+    </None>
     <None Include="Home.html">
       <Filter>페이지</Filter>
     </None>
     <None Include="Intro.html">
       <Filter>페이지</Filter>
     </None>
-    <None Include="Css\home.css">
-      <Filter>리소스 파일</Filter>
+    <None Include="KnowParts.html">
+      <Filter>페이지</Filter>
     </None>
-    <None Include="Css\intro.css">
-      <Filter>리소스 파일</Filter>
+    <None Include="KnowParts_Device.html">
+      <Filter>페이지</Filter>
+    </None>
+    <None Include="KnowParts_Device_Headset.html">
+      <Filter>페이지</Filter>
+    </None>
+    <None Include="KnowParts_Device_Keyboard.html">
+      <Filter>페이지</Filter>
+    </None>
+    <None Include="KnowParts_Device_Monitor.html">
+      <Filter>페이지</Filter>
+    </None>
+    <None Include="KnowParts_Device_Mouse.html">
+      <Filter>페이지</Filter>
+    </None>
+    <None Include="KnowParts_Device_Speaker.html">
+      <Filter>페이지</Filter>
+    </None>
+    <None Include="KnowParts_Main.html">
+      <Filter>페이지</Filter>
+    </None>
+    <None Include="KnowParts_Main_CPU.html">
+      <Filter>페이지</Filter>
+    </None>
+    <None Include="KnowParts_Main_RAM.html">
+      <Filter>페이지</Filter>
+    </None>
+    <None Include="KnowParts_Main_SSD.html">
+      <Filter>페이지</Filter>
+    </None>
+    <None Include="KnowParts_Main_VGA.html">
+      <Filter>페이지</Filter>
+    </None>
+    <None Include="KnowParts_Other.html">
+      <Filter>페이지</Filter>
+    </None>
+    <None Include="KnowParts_Other_Case.html">
+      <Filter>페이지</Filter>
+    </None>
+    <None Include="KnowParts_Other_Cooler.html">
+      <Filter>페이지</Filter>
+    </None>
+    <None Include="KnowParts_Other_Power.html">
+      <Filter>페이지</Filter>
     </None>
     <None Include="MainFrame 활용 예제.html">
       <Filter>페이지</Filter>
@@ -43,7 +91,10 @@
     <None Include="MainFrame.html">
       <Filter>페이지</Filter>
     </None>
-    <None Include="Css\_Article.css">
+    <None Include="Css\knowparts_x_y.css">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="Css\3_article.css">
       <Filter>리소스 파일</Filter>
     </None>
   </ItemGroup>

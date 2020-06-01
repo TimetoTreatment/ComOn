@@ -140,12 +140,29 @@
   <ItemGroup>
     <None Include="Css\home.css" />
     <None Include="Css\intro.css" />
-    <None Include="Css\_Article.css" />
+    <None Include="Css\knowparts_x_y.css" />
+    <None Include="Css\3_article.css" />
     <None Include="Css\0_global.css" />
     <None Include="Css\1_header.css" />
     <None Include="Css\2_nav.css" />
     <None Include="Css\4_footer.css" />
     <None Include="Css\3_section_list.css" />
+    <None Include="KnowParts.html" />
+    <None Include="KnowParts_Device.html" />
+    <None Include="KnowParts_Other_Case.html" />
+    <None Include="KnowParts_Other_Cooler.html" />
+    <None Include="KnowParts_Main_CPU.html" />
+    <None Include="KnowParts_Device_Headset.html" />
+    <None Include="KnowParts_Device_Keyboard.html" />
+    <None Include="KnowParts_Device_Monitor.html" />
+    <None Include="KnowParts_Device_Mouse.html" />
+    <None Include="KnowParts_Other_Power.html" />
+    <None Include="KnowParts_Main_RAM.html" />
+    <None Include="KnowParts_Device_Speaker.html" />
+    <None Include="KnowParts_Main_SSD.html" />
+    <None Include="KnowParts_Main_VGA.html" />
+    <None Include="KnowParts_Main.html" />
+    <None Include="KnowParts_Other.html" />
     <None Include="MainFrame 활용 예제.html">
       <DeploymentContent>true</DeploymentContent>
     </None>
