@@ -4,15 +4,9 @@
     <Filter Include="페이지">
       <UniqueIdentifier>{f22a95e0-b3f0-44f1-8a27-925a47bbe800}</UniqueIdentifier>
     </Filter>
-    <Filter Include="시작 페이지">
-      <UniqueIdentifier>{5abd9b96-8005-4204-9454-a83c384d7e38}</UniqueIdentifier>
-    </Filter>
     <Filter Include="리소스 파일">
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
-    </Filter>
-    <Filter Include="KnowParts">
-      <UniqueIdentifier>{ea2a7d3e-f1cb-492e-b82a-56c6ca4b348b}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -28,146 +22,29 @@
     <None Include="Css\0_global.css">
       <Filter>리소스 파일</Filter>
     </None>
-    <None Include="Css\3_section.css">
-      <Filter>리소스 파일</Filter>
-    </None>
     <None Include="Css\3_section_list.css">
       <Filter>리소스 파일</Filter>
     </None>
-    <None Include="Change_Case.html">
-      <Filter>페이지</Filter>
-    </None>
-    <None Include="Change_Cooler.html">
-      <Filter>페이지</Filter>
-    </None>
-    <None Include="Change_CPU.html">
-      <Filter>페이지</Filter>
-    </None>
-    <None Include="Change_GPU.html">
-      <Filter>페이지</Filter>
-    </None>
-    <None Include="Change_HD.html">
-      <Filter>페이지</Filter>
-    </None>
-    <None Include="Change_Main.html">
-      <Filter>페이지</Filter>
-    </None>
-    <None Include="Change_RAM.html">
-      <Filter>페이지</Filter>
-    </None>
-    <None Include="Change_Side.html">
-      <Filter>페이지</Filter>
-    </None>
-    <None Include="Change_Sub.html">
-      <Filter>페이지</Filter>
-    </None>
-    <None Include="Check_Parts.html">
-      <Filter>페이지</Filter>
-    </None>
-    <None Include="Estimate_Broadcast.html">
-      <Filter>페이지</Filter>
-    </None>
-    <None Include="Estimate_Business.html">
-      <Filter>페이지</Filter>
-    </None>
-    <None Include="Estimate_Confirm.html">
-      <Filter>페이지</Filter>
-    </None>
-    <None Include="Estimate_Game.html">
-      <Filter>페이지</Filter>
-    </None>
-    <None Include="Estimate_Office.html">
-      <Filter>페이지</Filter>
-    </None>
-    <None Include="Game_preset.html">
-      <Filter>페이지</Filter>
-    </None>
-    <None Include="MainParts.html">
-      <Filter>페이지</Filter>
-    </None>
-    <None Include="MainParts_CPU.html">
-      <Filter>페이지</Filter>
-    </None>
-    <None Include="OtherParts.html">
-      <Filter>페이지</Filter>
-    </None>
-    <None Include="PeriheralDevice.html">
-      <Filter>페이지</Filter>
-    </None>
-    <None Include="PresentEstimate.html">
-      <Filter>페이지</Filter>
-    </None>
-    <None Include="PurchasePhase1.html">
-      <Filter>페이지</Filter>
-    </None>
-    <None Include="PurchasePhase2.html">
-      <Filter>페이지</Filter>
-    </None>
-    <None Include="PurchasePhase3.html">
-      <Filter>페이지</Filter>
-    </None>
     <None Include="Home.html">
-      <Filter>시작 페이지</Filter>
+      <Filter>페이지</Filter>
     </None>
     <None Include="Intro.html">
-      <Filter>시작 페이지</Filter>
-    </None>
-    <None Include="_MainFrame.htm">
       <Filter>페이지</Filter>
     </None>
-    <None Include="_3_section_list 예제.html">
+    <None Include="Css\home.css">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="Css\intro.css">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="MainFrame 활용 예제.html">
       <Filter>페이지</Filter>
     </None>
-    <None Include="Parts\MainParts_GPU.html">
-      <Filter>KnowParts</Filter>
+    <None Include="MainFrame.html">
+      <Filter>페이지</Filter>
     </None>
-    <None Include="Parts\MainParts_RAM.html">
-      <Filter>KnowParts</Filter>
-    </None>
-    <None Include="Parts\MainParts_StorageDevice.html">
-      <Filter>KnowParts</Filter>
-    </None>
-    <None Include="Parts\OtherParts.html">
-      <Filter>KnowParts</Filter>
-    </None>
-    <None Include="Parts\OtherParts_Case.html">
-      <Filter>KnowParts</Filter>
-    </None>
-    <None Include="Parts\OtherParts_Cooler.html">
-      <Filter>KnowParts</Filter>
-    </None>
-    <None Include="Parts\OtherParts_PowerSupply.html">
-      <Filter>KnowParts</Filter>
-    </None>
-    <None Include="Parts\PeriheralDevice.html">
-      <Filter>KnowParts</Filter>
-    </None>
-    <None Include="Parts\PeriheralDevice_Headset.html">
-      <Filter>KnowParts</Filter>
-    </None>
-    <None Include="Parts\PeriheralDevice_Keyboard.html">
-      <Filter>KnowParts</Filter>
-    </None>
-    <None Include="Parts\PeriheralDevice_Moniter.html">
-      <Filter>KnowParts</Filter>
-    </None>
-    <None Include="Parts\PeriheralDevice_Mouse.html">
-      <Filter>KnowParts</Filter>
-    </None>
-    <None Include="Parts\PeriheralDevice_Speaker.html">
-      <Filter>KnowParts</Filter>
-    </None>
-    <None Include="Parts\KnowParts.html">
-      <Filter>KnowParts</Filter>
-    </None>
-    <None Include="Parts\MainParts.html">
-      <Filter>KnowParts</Filter>
-    </None>
-    <None Include="Parts\MainParts_CPU.html">
-      <Filter>KnowParts</Filter>
-    </None>
-    <None Include="HTMLPage.htm">
-      <Filter>KnowParts</Filter>
+    <None Include="Css\_Article.css">
+      <Filter>리소스 파일</Filter>
     </None>
   </ItemGroup>
 </Project>

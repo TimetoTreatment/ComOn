@@ -1,0 +1,42 @@
+﻿article {
+    height: 250px;
+}
+
+    article .margin-left {
+        width: 288px;
+    }
+
+    article .left-box {
+        width: 288px;
+    }
+
+        article .left-box img {
+            margin: 45px auto;
+        }
+
+    article .middle-box {
+        width: 960px;
+    }
+
+    article #home-section-line1 {
+        height: 125px;
+        width: 576px;
+        border-right: 1px solid #BFBFBF;
+        border-bottom: 1px solid #BFBFBF;
+    }
+
+    article #home-section-line2 {
+        height: 125px;
+        width: 288px;
+        border-right: 1px solid #BFBFBF;
+    }
+
+    article #start-button {
+        top: 96px;
+        left: 128px;
+        width: 500px;
+    }
+
+    article .margin-right {
+        width: 370px;
+    }

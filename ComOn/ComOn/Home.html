@@ -1,77 +1,74 @@
-Ôªø<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
     <title>Com On</title>
-    <link rel="stylesheet" href="Css/0_global.css">
-    <link rel="stylesheet" href="Css/1_header.css">
-    <link rel="stylesheet" href="Css/2_nav.css">
-    <link rel="stylesheet" href="Css/3_section.css" />
-    <link rel="stylesheet" href="Css/4_footer.css">
+    <link rel="stylesheet" href="Css/0_global.css" />
+    <link rel="stylesheet" href="Css/1_header.css" />
+    <link rel="stylesheet" href="Css/2_nav.css" />
+    <link rel="stylesheet" href="Css/_Article.css" /> <!-- ªı∑ŒøÓ Article CSS -->
+    <link rel="stylesheet" href="Css/4_footer.css" />
+    <link rel="stylesheet" href="Css/home.css" />
 </head>
+
 <body>
     <header>
-        <div id="title">
-            <a href="Home.html"><img src="Assets/image/Î°úÍ≥†_OFF.png" alt="ÌôàÌéòÏù¥ÏßÄ" /></a>
+        <div class="title">
+            <a href="Home.html"><img src="Assets/image/∑Œ∞Ì_OFF.png" alt="»®∆‰¿Ã¡ˆ" /></a>
         </div>
-        <div id="subtitle">
+        <div class="subtitle">
             Create & Design
         </div>
     </header>
 
     <nav>
         <a href="Estimate_Game.html">
-            <img src="Assets/image/Í≤åÏûÑÏö©_Off.png" alt="Í≤åÏûÑÏö©" />
+            <img src="Assets/image/∞‘¿”øÎ_Off.png" alt="∞‘¿”øÎ" />
         </a>
         <a href="Estimate_Office.html">
-            <img src="Assets/image/ÏÇ¨Î¨¥Ïö©_Off.png" alt="ÏÇ¨Î¨¥Ïö©" />
+            <img src="Assets/image/ªÁπ´øÎ_Off.png" alt="ªÁπ´øÎ" />
         </a>
         <a href="Estimate_Business.html">
-            <img src="Assets/image/ÏûëÏóÖÏö©_Off.png" alt="ÏûëÏóÖÏö©" />
+            <img src="Assets/image/¿€æ˜øÎ_Off.png" alt="¿€æ˜øÎ" />
         </a>
         <a href="Estimate_Broadcast.html">
-            <img src="Assets/image/Î∞©ÏÜ°Ïö©_Off.png" alt="Î∞©ÏÜ°Ïö©" />
+            <img src="Assets/image/πÊº€øÎ_Off.png" alt="πÊº€øÎ" />
         </a>
     </nav>
 
-    <section>
-        <div class="layout" id="left-dummy-box"></div>
-        <div class="layout" id="left-box">
+    <article>
+        <!-- øﬁ¬  ø©πÈ -->
+        <section class="margin-left"></section>
+        <!-- øﬁ¬  ªÛ¿⁄ -->
+        <section class="left-box">
             <a href="Parts/KnowParts.html">
-                <img src="Assets/image/Î∂ÄÌíàÏïåÍ≥†Í∞ÄÍ∏∞.png" />
+                <img src="Assets/image/∫Œ«∞æÀ∞Ì∞°±‚.png" />
             </a>
-        </div>
-        <div class="layout" id="middle-box">
-            <div id="line1"></div>
-            <div id="line2"></div>
-            <a href="Home.html">
-                <div class="button " id="start-button">
-                    ÎÇ¥ Í≤¨Ï†Å Íµ¨Îß§ÌïòÍ∏∞
-                </div>
-            </a>
-        </div>
-        <div class="layout" id="right-dummy-box"></div>
-    </section>
+        </section>
+        <!-- ¡ﬂæ” ªÛ¿⁄ -->
+        <section class="middle-box">
+            <div id="home-section-line1"></div>
+            <div id="home-section-line2"></div>
+            <!-- πˆ∆∞ -->
+            <div class="button" id="start-button">
+                <a href="Home.html"> ≥ª ∞ﬂ¿˚ ±∏∏≈«œ±‚</a>
+            </div>
+        </section>
+        <!-- ø¿∏•¬  ø©πÈ -->
+        <section class="margin-right"></section>
+    </article>
 
     <footer>
-        <div id="tag">
+        <div class="footer-tag">
             #ComOnPC<br /><br />
             #DesignYourOwnPC
         </div>
-        <div id="icon">
-            <span data-toggle="tooltip" data-placement="bottom" title="ÍπÄÏòÅÏùÄ & Ïö∞ÏùÄÌòÅ & Ïú§Í±¥Ìò∏ & ÏûÑÌö®ÎπÑ">
-                <img src="Assets/image/Contact.png" />
-            </span>
+        <div class="footer-icon">
+            <img src="Assets/image/Contact.png" title="±Ëøµ¿∫ & øÏ¿∫«ı & ¿±∞«»£ & ¿”»ø∫Ò" />
         </div>
-        <div id="contact">
-            ÏÑúÏö∏Ïãú Í¥ëÏßÑÍµ¨ Îä•ÎèôÎ°ú 209 ÏÑ∏Ï¢ÖÎåÄÌïôÍµê<br /><br />
+        <div class="footer-contact">
+            º≠øÔΩ√ ±§¡¯±∏ ¥…µø∑Œ 209 ºº¡æ¥Î«–±≥<br /><br />
             010 - 1234 - 1234
         </div>
     </footer>
-
-    <script>
-        $(function () {
-            $('[data-toggle="tooltip"]').tooltip()
-        })
-    </script>
 </body>
 </html>

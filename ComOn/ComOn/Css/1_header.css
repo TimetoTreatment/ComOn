@@ -3,12 +3,10 @@
     margin: 35px;
 }
 
-    header #subtitle {
+    header .subtitle {
         width: 500px;
         height: 50px;
-        display: inline-block;
-        text-align: center;
+        margin: 10px auto;
         border-bottom: 1px solid #BFBFBF;
         font-size: 28px;
-        color: #7F7F7F;
     }
