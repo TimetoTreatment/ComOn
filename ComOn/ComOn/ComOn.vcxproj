@@ -163,14 +163,13 @@
     <None Include="KnowParts_Main_VGA.html" />
     <None Include="KnowParts_Main.html" />
     <None Include="KnowParts_Other.html" />
-    <None Include="MainFrame 활용 예제.html">
-      <DeploymentContent>true</DeploymentContent>
-    </None>
     <None Include="Home.html" />
     <None Include="Intro.html" />
     <None Include="MainFrame.html">
       <DeploymentContent>true</DeploymentContent>
     </None>
+    <None Include="PurchaseSite.html" />
+    <None Include="PurchaseSite_Hardware.html" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

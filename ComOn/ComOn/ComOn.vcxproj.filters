@@ -85,9 +85,6 @@
     <None Include="KnowParts_Other_Power.html">
       <Filter>페이지</Filter>
     </None>
-    <None Include="MainFrame 활용 예제.html">
-      <Filter>페이지</Filter>
-    </None>
     <None Include="MainFrame.html">
       <Filter>페이지</Filter>
     </None>
@@ -96,6 +93,12 @@
     </None>
     <None Include="Css\3_article.css">
       <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="PurchaseSite.html">
+      <Filter>페이지</Filter>
+    </None>
+    <None Include="PurchaseSite_Hardware.html">
+      <Filter>페이지</Filter>
     </None>
   </ItemGroup>
 </Project>

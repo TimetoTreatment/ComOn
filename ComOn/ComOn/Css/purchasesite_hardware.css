@@ -1,0 +1,52 @@
+﻿article .left-box {
+    width: 480px;
+}
+
+article .middle-box {
+    width: 959px;
+}
+
+article .menu:first-child {
+    margin-left: 185px;
+}
+
+article .margin-right {
+    width: 276px;
+}
+
+article .center-line {
+    width: 360px;
+}
+
+article .knowparts-header {
+    width: 900px;
+    float: left;
+    padding: 40px 20px;
+    overflow: hidden;
+}
+
+    article .knowparts-header .knowparts-header-icon {
+        float: left;
+        width: 100px;
+        height: 100px;
+    }
+
+    article .knowparts-header .knowparts-header-title {
+        height: 60px;
+        font-size: 48px;
+        color: #FFC000;
+        margin: 20px 10px;
+        float: left;
+    }
+
+article .knowparts-body {
+    height: 100px;
+    width: 800px;
+    float: left;
+    padding: 0 60px;
+}
+
+    article .knowparts-body li {
+        font-size: 20px;
+        line-height: 50px;
+    }
