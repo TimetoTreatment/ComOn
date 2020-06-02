@@ -31,6 +31,24 @@
     <None Include="Css\intro.css">
       <Filter>리소스 파일</Filter>
     </None>
+    <None Include="Css\knowparts_x_y.css">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="Css\3_article.css">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="_MainFrame 활용예제.html">
+      <Filter>페이지</Filter>
+    </None>
+    <None Include="Estimate_Broadcast.html">
+      <Filter>페이지</Filter>
+    </None>
+    <None Include="Estimate_Business.html">
+      <Filter>페이지</Filter>
+    </None>
+    <None Include="Estimate_Game.html">
+      <Filter>페이지</Filter>
+    </None>
     <None Include="Home.html">
       <Filter>페이지</Filter>
     </None>
@@ -88,11 +106,41 @@
     <None Include="MainFrame.html">
       <Filter>페이지</Filter>
     </None>
-    <None Include="Css\knowparts_x_y.css">
-      <Filter>리소스 파일</Filter>
+    <None Include="Preset_Broadcast_100.html">
+      <Filter>페이지</Filter>
     </None>
-    <None Include="Css\3_article.css">
-      <Filter>리소스 파일</Filter>
+    <None Include="Preset_Broadcast_1000.html">
+      <Filter>페이지</Filter>
+    </None>
+    <None Include="Preset_Broadcast_World.html">
+      <Filter>페이지</Filter>
+    </None>
+    <None Include="Preset_Business_Design.html">
+      <Filter>페이지</Filter>
+    </None>
+    <None Include="Preset_Business_Sound.html">
+      <Filter>페이지</Filter>
+    </None>
+    <None Include="Preset_Business_Structure.html">
+      <Filter>페이지</Filter>
+    </None>
+    <None Include="Preset_Business_Video.html">
+      <Filter>페이지</Filter>
+    </None>
+    <None Include="Preset_Game_High.html">
+      <Filter>페이지</Filter>
+    </None>
+    <None Include="Preset_Game_Low.html">
+      <Filter>페이지</Filter>
+    </None>
+    <None Include="Preset_Game_Medium.html">
+      <Filter>페이지</Filter>
+    </None>
+    <None Include="Preset_Game_Ultra.html">
+      <Filter>페이지</Filter>
+    </None>
+    <None Include="Preset_Office.html">
+      <Filter>페이지</Filter>
     </None>
     <None Include="PurchaseSite.html">
       <Filter>페이지</Filter>
@@ -101,9 +149,6 @@
       <Filter>페이지</Filter>
     </None>
     <None Include="PurchaseSite_Software.html">
-      <Filter>페이지</Filter>
-    </None>
-    <None Include="_MainFrame 활용예제.html">
       <Filter>페이지</Filter>
     </None>
   </ItemGroup>

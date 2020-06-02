@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Com On</title>
+    <link rel="stylesheet" href="Css/0_global.css" />
+    <link rel="stylesheet" href="Css/1_header.css" />
+    <link rel="stylesheet" href="Css/2_nav.css" />
+    <link rel="stylesheet" href="Css/4_footer.css" />
+    <link rel="stylesheet" href="Css/3_article.css" />
+    <link rel="stylesheet" href="Css/home.css" />
+
+    <style media="screen">
+      article .middle-box {
+        width: 1320px;
+      }
+
+      article {
+        height: 400px;
+      }
+
+      article .menu {
+        float: left;
+        width: 200px;
+        margin-left: 200px;
+      }
+
+      article .center-line {
+        width: 1200px;
+      }
+      article .menu:first-child {
+        margin-left: 210px;
+      }
+
+      article .margin-right {
+        width: 310px;
+      }
+    </style>
+</head>
+<body>
+    <header>
+        <div id="title">
+            <a href="Home.html"><img src="Assets/image/로고_ON.png" alt="홈페이지" /></a>
+        </div>
+        <div class="subtitle">
+            방송용 컴퓨터 견적
+        </div>
+    </header>
+
+    <nav>
+        <a href="Estimate_Game.html">
+            <img src="Assets/image/게임용_Off.png" alt="게임용" />
+        </a>
+        <a href="Preset_Office.html">
+            <img src="Assets/image/사무용_Off.png" alt="사무용" />
+        </a>
+        <a href="Estimate_Business.html">
+            <img src="Assets/image/작업용_Off.png" alt="작업용" />
+        </a>
+        <a href="Estimate_Broadcast.html">
+            <img src="Assets/image/방송용_On.png" alt="방송용" />
+        </a>
+    </nav>
+
+    <article>
+        <!--왼쪽 더미 공간 -->
+        <section class="margin-left"></section>
+        <!--가운데-->
+
+        <section class="middle-box">
+            <div class="menu">
+              <div class="menu-title">
+                100명 미만
+              </div>
+              <a href="Preset_Broadcast_100.html">
+                <div class="menu-circle"><img src="Assets/image/방송소.png" /></div>
+                <h1 class="menu-summary">100명 미만</h1>
+              </a>
+            </div>
+
+            <div class="menu">
+              <div class="menu-title">
+                1000명 미만
+              </div>
+              <a href="Preset_Broadcast_1000.html">
+                <div class="menu-circle"><img src="Assets/image/방송중.png" /></div>
+                <h1 class="menu-summary">1000명 미만</h1>
+              </a>
+            </div>
+
+            <div class="menu">
+              <div class="menu-title">
+                월클
+              </div>
+              <a href="Preset_Broadcast_World.html">
+                <div class="menu-circle"><img src="Assets/image/방송대.png" /></div>
+                <h1 class="menu-summary">월클</h1>
+              </a>
+            </div>
+            <div class="center-line"><div class="center-line-end"></div></div>
+        </section>
+        <!--오른쪽 더미 공간 -->
+        <section class="margin-right"><div class="right-box"></div></section>
+    </article>
+
+    <footer>
+        <div class="footer-tag">
+            #ComOnPC<br /><br />
+            #DesignYourOwnPC
+        </div>
+        <div class="footer-icon">
+            <span data-toggle="tooltip" data-placement="bottom" title="김영은 & 우은혁 & 윤건호 & 임효비">
+                <img src="Assets/image/Contact.png" />
+            </span>
+        </div>
+        <div id="contact">
+            서울시 광진구 능동로 209 세종대학교<br /><br />
+            010 - 1234 - 1234
+        </div>
+    </footer>
+  </body>
+</html>
