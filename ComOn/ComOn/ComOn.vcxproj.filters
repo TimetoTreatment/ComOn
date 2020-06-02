@@ -8,38 +8,20 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="CSS">
+      <UniqueIdentifier>{102d280b-6d24-48bb-9885-33553e199f93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CSS\Page">
+      <UniqueIdentifier>{48f1cf48-f81e-4374-81d9-caf198421947}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CSS\Global">
+      <UniqueIdentifier>{9aa68a0a-8139-4a6c-b0f8-64a70ac91206}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CSS\Library">
+      <UniqueIdentifier>{85d19766-2edb-4174-be38-8755b38b1b12}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Css\1_header.css">
-      <Filter>리소스 파일</Filter>
-    </None>
-    <None Include="Css\2_nav.css">
-      <Filter>리소스 파일</Filter>
-    </None>
-    <None Include="Css\4_footer.css">
-      <Filter>리소스 파일</Filter>
-    </None>
-    <None Include="Css\0_global.css">
-      <Filter>리소스 파일</Filter>
-    </None>
-    <None Include="Css\3_section_list.css">
-      <Filter>리소스 파일</Filter>
-    </None>
-    <None Include="Css\home.css">
-      <Filter>리소스 파일</Filter>
-    </None>
-    <None Include="Css\intro.css">
-      <Filter>리소스 파일</Filter>
-    </None>
-    <None Include="Css\knowparts_x_y.css">
-      <Filter>리소스 파일</Filter>
-    </None>
-    <None Include="Css\3_article.css">
-      <Filter>리소스 파일</Filter>
-    </None>
-    <None Include="_MainFrame 활용예제.html">
-      <Filter>페이지</Filter>
-    </None>
     <None Include="Estimate_Broadcast.html">
       <Filter>페이지</Filter>
     </None>
@@ -103,18 +85,6 @@
     <None Include="KnowParts_Other_Power.html">
       <Filter>페이지</Filter>
     </None>
-    <None Include="MainFrame.html">
-      <Filter>페이지</Filter>
-    </None>
-    <None Include="Preset_Broadcast_100.html">
-      <Filter>페이지</Filter>
-    </None>
-    <None Include="Preset_Broadcast_1000.html">
-      <Filter>페이지</Filter>
-    </None>
-    <None Include="Preset_Broadcast_World.html">
-      <Filter>페이지</Filter>
-    </None>
     <None Include="Preset_Business_Design.html">
       <Filter>페이지</Filter>
     </None>
@@ -139,9 +109,6 @@
     <None Include="Preset_Game_Ultra.html">
       <Filter>페이지</Filter>
     </None>
-    <None Include="Preset_Office.html">
-      <Filter>페이지</Filter>
-    </None>
     <None Include="PurchaseSite.html">
       <Filter>페이지</Filter>
     </None>
@@ -150,6 +117,51 @@
     </None>
     <None Include="PurchaseSite_Software.html">
       <Filter>페이지</Filter>
+    </None>
+    <None Include="Home_EasterEgg.html">
+      <Filter>페이지</Filter>
+    </None>
+    <None Include="Estimate_Office.html">
+      <Filter>페이지</Filter>
+    </None>
+    <None Include="Css\Global\_All.css">
+      <Filter>CSS\Global</Filter>
+    </None>
+    <None Include="Css\Global\Article.css">
+      <Filter>CSS\Global</Filter>
+    </None>
+    <None Include="Css\Global\Footer.css">
+      <Filter>CSS\Global</Filter>
+    </None>
+    <None Include="Css\Global\Header.css">
+      <Filter>CSS\Global</Filter>
+    </None>
+    <None Include="Css\Global\Nav.css">
+      <Filter>CSS\Global</Filter>
+    </None>
+    <None Include="Css\Page\Home.css">
+      <Filter>CSS\Page</Filter>
+    </None>
+    <None Include="Css\Page\Intro.css">
+      <Filter>CSS\Page</Filter>
+    </None>
+    <None Include="Css\Page\Knowparts_X_Y.css">
+      <Filter>CSS\Page</Filter>
+    </None>
+    <None Include="Css\Library\Menu_Num2.css">
+      <Filter>CSS\Library</Filter>
+    </None>
+    <None Include="Css\Library\Menu_Num3.css">
+      <Filter>CSS\Library</Filter>
+    </None>
+    <None Include="Css\Library\Menu_Num4.css">
+      <Filter>CSS\Library</Filter>
+    </None>
+    <None Include="Css\Library\Menu_Num5.css">
+      <Filter>CSS\Library</Filter>
+    </None>
+    <None Include="Css\Page\PurchaseSite_X.css">
+      <Filter>CSS\Page</Filter>
     </None>
   </ItemGroup>
 </Project>

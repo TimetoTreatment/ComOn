@@ -138,19 +138,24 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <None Include="Css\home.css" />
-    <None Include="Css\intro.css" />
-    <None Include="Css\knowparts_x_y.css" />
-    <None Include="Css\3_article.css" />
-    <None Include="Css\0_global.css" />
-    <None Include="Css\1_header.css" />
-    <None Include="Css\2_nav.css" />
-    <None Include="Css\4_footer.css" />
-    <None Include="Css\3_section_list.css" />
+    <None Include="Css\Global\Article.css" />
+    <None Include="Css\Global\Footer.css" />
+    <None Include="Css\Global\Header.css" />
+    <None Include="Css\Global\Nav.css" />
+    <None Include="Css\Global\_All.css" />
+    <None Include="Css\Library\Menu_Num2.css" />
+    <None Include="Css\Library\Menu_Num3.css" />
+    <None Include="Css\Library\Menu_Num4.css" />
+    <None Include="Css\Library\Menu_Num5.css" />
+    <None Include="Css\Page\Home.css" />
+    <None Include="Css\Page\Intro.css" />
+    <None Include="Css\Page\Knowparts_X_Y.css" />
+    <None Include="Css\Page\PurchaseSite_X.css" />
     <None Include="Estimate_Broadcast.html" />
     <None Include="Estimate_Business.html" />
     <None Include="Estimate_Game.html" />
     <None Include="Home.html" />
+    <None Include="Home_EasterEgg.html" />
     <None Include="Intro.html" />
     <None Include="KnowParts.html" />
     <None Include="KnowParts_Device.html" />
@@ -168,10 +173,6 @@
     <None Include="KnowParts_Other_Case.html" />
     <None Include="KnowParts_Other_Cooler.html" />
     <None Include="KnowParts_Other_Power.html" />
-    <None Include="MainFrame.html" />
-    <None Include="Preset_Broadcast_100.html" />
-    <None Include="Preset_Broadcast_1000.html" />
-    <None Include="Preset_Broadcast_World.html" />
     <None Include="Preset_Business_Design.html" />
     <None Include="Preset_Business_Sound.html" />
     <None Include="Preset_Business_Structure.html" />
@@ -180,11 +181,10 @@
     <None Include="Preset_Game_Low.html" />
     <None Include="Preset_Game_Medium.html" />
     <None Include="Preset_Game_Ultra.html" />
-    <None Include="Preset_Office.html" />
+    <None Include="Estimate_Office.html" />
     <None Include="PurchaseSite.html" />
     <None Include="PurchaseSite_Hardware.html" />
     <None Include="PurchaseSite_Software.html" />
-    <None Include="_MainFrame 활용예제.html" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -1,0 +1,82 @@
+﻿article .left-box {
+    width: 480px;
+}
+
+article .middle-box {
+    width: 959px;
+}
+
+article .menu:first-child {
+    margin-left: 185px;
+}
+
+article .margin-right {
+    width: 276px;
+}
+
+article .center-line {
+    width: 360px;
+}
+
+article .purchase-list-header {
+    width: 900px;
+    float: left;
+    padding: 22px 20px;
+    overflow: hidden;
+}
+
+    article .purchase-list-header .purchase-list-header-icon {
+        float: left;
+        width: 100px;
+        height: 100px;
+    }
+
+    article .purchase-list-header .purchase-list-header-title {
+        float: left;
+        height: 60px;
+        font-size: 48px;
+        color: #FFC000;
+        margin: 20px 10px;
+    }
+
+article .purchase-list-body {
+    position: absolute;
+    width: 740px;
+    height: 200px;
+    top: 140px;
+    left: 50px;
+    overflow-y: scroll;
+    padding: 10px 35px;
+    border: 1px solid #BFBFBF;
+}
+
+    article .purchase-list-body ul li {
+        margin: 10px 0;
+        overflow: hidden;
+    }
+
+        article .purchase-list-body ul li div {
+            float: left;
+            text-align: center;
+            border: 1px solid #AFAFAF;
+            font-size: 20px;
+            line-height: 50px;
+        }
+
+        article .purchase-list-body ul li .purchase-list-part {
+            width: 120px;
+            font-weight: bold;
+            color: white;
+            background-color: #AFAFAF;
+        }
+
+        article .purchase-list-body ul li .purchase-list-name {
+            width: 480px;
+        }
+
+        article .purchase-list-body ul li .purchase-list-price {
+            width: 120px;
+            font-weight: bold;
+            color: white;
+            background-color: #AFAFAF;
+        }

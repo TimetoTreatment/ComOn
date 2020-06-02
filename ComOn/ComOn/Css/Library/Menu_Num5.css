@@ -1,0 +1,7 @@
+﻿article .middle-box .menu {
+    margin-left: 50px; /* 각 항목 사이의 공간 */
+}
+
+    article .middle-box .menu:first-child {
+        margin-left: 160px; /* 왼쪽 선분과 첫 항목까지의 여백 */
+    }
