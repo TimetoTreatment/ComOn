@@ -170,6 +170,8 @@
     </None>
     <None Include="PurchaseSite.html" />
     <None Include="PurchaseSite_Hardware.html" />
+    <None Include="PurchaseSite_Software.html" />
+    <None Include="_MainFrame 활용예제.html" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
