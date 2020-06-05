@@ -4,10 +4,6 @@
     <Filter Include="페이지">
       <UniqueIdentifier>{f22a95e0-b3f0-44f1-8a27-925a47bbe800}</UniqueIdentifier>
     </Filter>
-    <Filter Include="리소스 파일">
-      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
-      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
-    </Filter>
     <Filter Include="CSS">
       <UniqueIdentifier>{102d280b-6d24-48bb-9885-33553e199f93}</UniqueIdentifier>
     </Filter>
@@ -20,17 +16,11 @@
     <Filter Include="CSS\Library">
       <UniqueIdentifier>{85d19766-2edb-4174-be38-8755b38b1b12}</UniqueIdentifier>
     </Filter>
+    <Filter Include="프레임">
+      <UniqueIdentifier>{6f1576a4-7cac-4c45-8472-0dcc94a19345}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Estimate_Broadcast.html">
-      <Filter>페이지</Filter>
-    </None>
-    <None Include="Estimate_Business.html">
-      <Filter>페이지</Filter>
-    </None>
-    <None Include="Estimate_Game.html">
-      <Filter>페이지</Filter>
-    </None>
     <None Include="Home.html">
       <Filter>페이지</Filter>
     </None>
@@ -91,9 +81,6 @@
     <None Include="Preset_Business_Sound.html">
       <Filter>페이지</Filter>
     </None>
-    <None Include="Preset_Business_Structure.html">
-      <Filter>페이지</Filter>
-    </None>
     <None Include="Preset_Business_Video.html">
       <Filter>페이지</Filter>
     </None>
@@ -109,19 +96,7 @@
     <None Include="Preset_Game_Ultra.html">
       <Filter>페이지</Filter>
     </None>
-    <None Include="PurchaseSite.html">
-      <Filter>페이지</Filter>
-    </None>
-    <None Include="PurchaseSite_Hardware.html">
-      <Filter>페이지</Filter>
-    </None>
-    <None Include="PurchaseSite_Software.html">
-      <Filter>페이지</Filter>
-    </None>
     <None Include="Home_EasterEgg.html">
-      <Filter>페이지</Filter>
-    </None>
-    <None Include="Estimate_Office.html">
       <Filter>페이지</Filter>
     </None>
     <None Include="Css\Global\_All.css">
@@ -162,6 +137,219 @@
     </None>
     <None Include="Css\Page\PurchaseSite_X.css">
       <Filter>CSS\Page</Filter>
+    </None>
+    <None Include="Preset_Broadcast.html">
+      <Filter>페이지</Filter>
+    </None>
+    <None Include="Preset_Business.html">
+      <Filter>페이지</Filter>
+    </None>
+    <None Include="Preset_Game.html">
+      <Filter>페이지</Filter>
+    </None>
+    <None Include="Preset_Office.html">
+      <Filter>페이지</Filter>
+    </None>
+    <None Include="MainFrame\_Home.html">
+      <Filter>프레임</Filter>
+    </None>
+    <None Include="MainFrame\_KnowParts.html">
+      <Filter>프레임</Filter>
+    </None>
+    <None Include="MainFrame\_PurchaseSite.html">
+      <Filter>프레임</Filter>
+    </None>
+    <None Include="MainFrame\_PurchaseSite_Hardware.html">
+      <Filter>프레임</Filter>
+    </None>
+    <None Include="MainFrame\_PurchaseSite_Software.html">
+      <Filter>프레임</Filter>
+    </None>
+    <None Include="Preset_Broadcast_Chat.html">
+      <Filter>페이지</Filter>
+    </None>
+    <None Include="Preset_Broadcast_Game.html">
+      <Filter>페이지</Filter>
+    </None>
+    <None Include="Preset_Broadcast_Chat_Cost.html">
+      <Filter>페이지</Filter>
+    </None>
+    <None Include="Preset_Broadcast_Chat_Performance.html">
+      <Filter>페이지</Filter>
+    </None>
+    <None Include="Preset_Broadcast_Game_Cost.html">
+      <Filter>페이지</Filter>
+    </None>
+    <None Include="Preset_Broadcast_Game_Performance.html">
+      <Filter>페이지</Filter>
+    </None>
+    <None Include="Preset_Business_Design_Cost.html">
+      <Filter>페이지</Filter>
+    </None>
+    <None Include="Preset_Business_Design_Performance.html">
+      <Filter>페이지</Filter>
+    </None>
+    <None Include="Preset_Business_Sound_Cost.html">
+      <Filter>페이지</Filter>
+    </None>
+    <None Include="Preset_Business_Sound_Performance.html">
+      <Filter>페이지</Filter>
+    </None>
+    <None Include="Preset_Business_Video_Cost.html">
+      <Filter>페이지</Filter>
+    </None>
+    <None Include="Preset_Business_Video_Performance.html">
+      <Filter>페이지</Filter>
+    </None>
+    <None Include="Preset_Game_High_Cost.html">
+      <Filter>페이지</Filter>
+    </None>
+    <None Include="Preset_Game_High_Performance.html">
+      <Filter>페이지</Filter>
+    </None>
+    <None Include="Preset_Game_Low_Cost.html">
+      <Filter>페이지</Filter>
+    </None>
+    <None Include="Preset_Game_Low_Performance.html">
+      <Filter>페이지</Filter>
+    </None>
+    <None Include="Preset_Game_Medium_Cost.html">
+      <Filter>페이지</Filter>
+    </None>
+    <None Include="Preset_Game_Medium_Performance.html">
+      <Filter>페이지</Filter>
+    </None>
+    <None Include="Preset_Game_Ultra_Cost.html">
+      <Filter>페이지</Filter>
+    </None>
+    <None Include="Preset_Game_Ultra_Performance.html">
+      <Filter>페이지</Filter>
+    </None>
+    <None Include="PurchaseSite_Game_Low_Cost_Hardware.html">
+      <Filter>페이지</Filter>
+    </None>
+    <None Include="PurchaseSite_Game_Low_Cost_Software.html">
+      <Filter>페이지</Filter>
+    </None>
+    <None Include="PurchaseSite_Game_Low_Performance_Hardware.html">
+      <Filter>페이지</Filter>
+    </None>
+    <None Include="PurchaseSite_Game_Low_Performance_Software.html">
+      <Filter>페이지</Filter>
+    </None>
+    <None Include="PurchaseSite_Game_Medium_Cost_Hardware.html">
+      <Filter>페이지</Filter>
+    </None>
+    <None Include="PurchaseSite_Game_Medium_Cost_Software.html">
+      <Filter>페이지</Filter>
+    </None>
+    <None Include="PurchaseSite_Game_Medium_Performance_Hardware.html">
+      <Filter>페이지</Filter>
+    </None>
+    <None Include="PurchaseSite_Game_Medium_Performance_Software.html">
+      <Filter>페이지</Filter>
+    </None>
+    <None Include="PurchaseSite_Game_Ultra_Cost_Hardware.html">
+      <Filter>페이지</Filter>
+    </None>
+    <None Include="PurchaseSite_Game_Ultra_Cost_Software.html">
+      <Filter>페이지</Filter>
+    </None>
+    <None Include="PurchaseSite_Game_Ultra_Performance_Hardware.html">
+      <Filter>페이지</Filter>
+    </None>
+    <None Include="PurchaseSite_Game_Ultra_Performance_Software.html">
+      <Filter>페이지</Filter>
+    </None>
+    <None Include="PurchaseSite_Office_Cost_Hardware.html">
+      <Filter>페이지</Filter>
+    </None>
+    <None Include="PurchaseSite_Office_Cost_Software.html">
+      <Filter>페이지</Filter>
+    </None>
+    <None Include="PurchaseSite_Office_Performance_Hardware.html">
+      <Filter>페이지</Filter>
+    </None>
+    <None Include="PurchaseSite_Office_Performance_Software.html">
+      <Filter>페이지</Filter>
+    </None>
+    <None Include="PurchaseSite_Broadcast_Chat_Cost_Hardware.html">
+      <Filter>페이지</Filter>
+    </None>
+    <None Include="PurchaseSite_Broadcast_Chat_Cost_Software.html">
+      <Filter>페이지</Filter>
+    </None>
+    <None Include="PurchaseSite_Broadcast_Chat_Performance_Hardware.html">
+      <Filter>페이지</Filter>
+    </None>
+    <None Include="PurchaseSite_Broadcast_Chat_Performance_Software.html">
+      <Filter>페이지</Filter>
+    </None>
+    <None Include="PurchaseSite_Broadcast_Game_Cost_Hardware.html">
+      <Filter>페이지</Filter>
+    </None>
+    <None Include="PurchaseSite_Broadcast_Game_Cost_Software.html">
+      <Filter>페이지</Filter>
+    </None>
+    <None Include="PurchaseSite_Broadcast_Game_Performance_Hardware.html">
+      <Filter>페이지</Filter>
+    </None>
+    <None Include="PurchaseSite_Broadcast_Game_Performance_Software.html">
+      <Filter>페이지</Filter>
+    </None>
+    <None Include="PurchaseSite_Business_Design_Cost_Hardware.html">
+      <Filter>페이지</Filter>
+    </None>
+    <None Include="PurchaseSite_Business_Design_Cost_Software.html">
+      <Filter>페이지</Filter>
+    </None>
+    <None Include="PurchaseSite_Business_Design_Performance_Hardware.html">
+      <Filter>페이지</Filter>
+    </None>
+    <None Include="PurchaseSite_Business_Design_Performance_Software.html">
+      <Filter>페이지</Filter>
+    </None>
+    <None Include="PurchaseSite_Business_Sound_Cost_Hardware.html">
+      <Filter>페이지</Filter>
+    </None>
+    <None Include="PurchaseSite_Business_Sound_Cost_Software.html">
+      <Filter>페이지</Filter>
+    </None>
+    <None Include="PurchaseSite_Business_Sound_Performance_Hardware.html">
+      <Filter>페이지</Filter>
+    </None>
+    <None Include="PurchaseSite_Business_Sound_Performance_Software.html">
+      <Filter>페이지</Filter>
+    </None>
+    <None Include="PurchaseSite_Business_Video_Cost_Hardware.html">
+      <Filter>페이지</Filter>
+    </None>
+    <None Include="PurchaseSite_Business_Video_Cost_Software.html">
+      <Filter>페이지</Filter>
+    </None>
+    <None Include="PurchaseSite_Business_Video_Performance_Hardware.html">
+      <Filter>페이지</Filter>
+    </None>
+    <None Include="PurchaseSite_Business_Video_Performance_Software.html">
+      <Filter>페이지</Filter>
+    </None>
+    <None Include="PurchaseSite_Game_High_Cost_Hardware.html">
+      <Filter>페이지</Filter>
+    </None>
+    <None Include="PurchaseSite_Game_High_Cost_Software.html">
+      <Filter>페이지</Filter>
+    </None>
+    <None Include="PurchaseSite_Game_High_Performance_Hardware.html">
+      <Filter>페이지</Filter>
+    </None>
+    <None Include="PurchaseSite_Game_High_Performance_Software.html">
+      <Filter>페이지</Filter>
+    </None>
+    <None Include="Preset_Office_Cost.html">
+      <Filter>페이지</Filter>
+    </None>
+    <None Include="Preset_Office_Performance.html">
+      <Filter>페이지</Filter>
     </None>
   </ItemGroup>
 </Project>
