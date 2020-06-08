@@ -151,11 +151,6 @@
     <None Include="Css\Page\Intro.css" />
     <None Include="Css\Page\Knowparts_X_Y.css" />
     <None Include="Css\Page\PurchaseSite_X.css" />
-    <None Include="MainFrame\_Home.html" />
-    <None Include="MainFrame\_KnowParts.html" />
-    <None Include="MainFrame\_PurchaseSite.html" />
-    <None Include="MainFrame\_PurchaseSite_Hardware.html" />
-    <None Include="MainFrame\_PurchaseSite_Software.html" />
     <None Include="Preset_Broadcast.html" />
     <None Include="Preset_Broadcast_Chat.html" />
     <None Include="Preset_Broadcast_Game.html" />
@@ -248,6 +243,11 @@
     <None Include="PurchaseSite_Office_Cost_Software.html" />
     <None Include="PurchaseSite_Office_Performance_Hardware.html" />
     <None Include="PurchaseSite_Office_Performance_Software.html" />
+    <None Include="_Home.html" />
+    <None Include="_KnowParts.html" />
+    <None Include="_PurchaseSite.html" />
+    <None Include="_PurchaseSite_Hardware.html" />
+    <None Include="_PurchaseSite_Software.html" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
