@@ -8,12 +8,12 @@
     <link rel="stylesheet" href="Css/Global/Article.css" />
     <link rel="stylesheet" href="Css/Global/Footer.css" />
     <link rel="stylesheet" href="Css/Page/Intro.css" />
-    <script src="Global.js"></script>
+    <script src="JavaScript/Global.js"></script>
 </head>
 <body>
     <header>
         <div class="title">
-            <a href="Home.html"><img src="Assets/image/로고_OFF.png" alt="홈페이지" /></a>
+            <a href="Home.html"><img src="Assets/image/로고_OFF.png" onclick="alert(currentDate);" alt="홈페이지" /></a>
         </div>
         <div class="subtitle">
             Create & Design
@@ -30,8 +30,8 @@
         <section class="middle-box">
             <div id="home-section-line1"></div>
             <div id="home-section-line2"></div>
-            <div class="button" id="start-button">
-                <a href="Home.html">
+            <div class="button" id="start-button" onclick="goHome()">
+                <a href="Home.html" >
                     Click to Start
                 </a>
             </div>
@@ -45,7 +45,7 @@
             #DesignYourOwnPC
         </div>
         <div class="footer-icon">
-            <img src="Assets/image/Contact.png" title="김영은 & 우은혁 & 윤건호 & 임효비" />
+            <img src="Assets/image/Contact.png" onclick="alert(teamMember);" title="김영은 & 우은혁 & 윤건호 & 임효비" />
         </div>
         <div class="footer-contact">
             서울시 광진구 능동로 209 세종대학교<br /><br />

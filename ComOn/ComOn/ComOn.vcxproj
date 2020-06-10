@@ -151,6 +151,7 @@
     <None Include="Css\Page\Intro.css" />
     <None Include="Css\Page\Knowparts_X_Y.css" />
     <None Include="Css\Page\PurchaseSite_X.css" />
+    <None Include="JavaScript\Global.js" />
     <None Include="Preset_Broadcast.html" />
     <None Include="Preset_Broadcast_Chat.html" />
     <None Include="Preset_Broadcast_Game.html" />
@@ -249,7 +250,6 @@
     <None Include="_PurchaseSite_Hardware.html" />
     <None Include="_PurchaseSite_Software.html" />
     <None Include="_Test.html" />
-    <None Include="Global.js" />
     <None Include="__MainFrameLeftBox.html" />
     <None Include="__MainFrameList.html" />
   </ItemGroup>

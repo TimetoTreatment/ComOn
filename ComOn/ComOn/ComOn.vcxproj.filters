@@ -105,9 +105,6 @@
     <None Include="Css\Global\_All.css">
       <Filter>CSS\Global</Filter>
     </None>
-    <None Include="Css\Global\Article.css">
-      <Filter>CSS\Global</Filter>
-    </None>
     <None Include="Css\Global\Footer.css">
       <Filter>CSS\Global</Filter>
     </None>
@@ -357,14 +354,17 @@
     <None Include="_Test.html">
       <Filter>페이지</Filter>
     </None>
-    <None Include="Global.js">
-      <Filter>JavaScript</Filter>
-    </None>
     <None Include="__MainFrameLeftBox.html">
       <Filter>HTML_Frame</Filter>
     </None>
     <None Include="__MainFrameList.html">
       <Filter>HTML_Frame</Filter>
+    </None>
+    <None Include="Css\Global\Article.css">
+      <Filter>CSS\Global</Filter>
+    </None>
+    <None Include="JavaScript\Global.js">
+      <Filter>JavaScript</Filter>
     </None>
   </ItemGroup>
 </Project>
