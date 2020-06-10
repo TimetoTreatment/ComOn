@@ -19,6 +19,9 @@
     <Filter Include="HTML_Frame">
       <UniqueIdentifier>{6f1576a4-7cac-4c45-8472-0dcc94a19345}</UniqueIdentifier>
     </Filter>
+    <Filter Include="JavaScript">
+      <UniqueIdentifier>{acfe57d8-44db-4a0b-b2be-9419f287bb2b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <None Include="Home.html">
@@ -349,6 +352,18 @@
       <Filter>HTML_Frame</Filter>
     </None>
     <None Include="_PurchaseSite_Software.html">
+      <Filter>HTML_Frame</Filter>
+    </None>
+    <None Include="_Test.html">
+      <Filter>페이지</Filter>
+    </None>
+    <None Include="Global.js">
+      <Filter>JavaScript</Filter>
+    </None>
+    <None Include="__MainFrameLeftBox.html">
+      <Filter>HTML_Frame</Filter>
+    </None>
+    <None Include="__MainFrameList.html">
       <Filter>HTML_Frame</Filter>
     </None>
   </ItemGroup>
