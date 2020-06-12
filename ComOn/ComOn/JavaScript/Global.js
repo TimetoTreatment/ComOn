@@ -1,11 +1,18 @@
-var teamMember = '\n                                    :: Team 5 ::\n\n';
+function PrintWelcome() {
 
-teamMember += '                      Geon-Ho Yun  &  Hyo-Bi Lim\n';
-teamMember += '                    Young-Eun Kim  &  Eun-Hyuk Woo\n';
-
-function goHome() {
     var currentDate = new Date();
+    var welcomeStr = '                            :: Welcome to ComOn ::'
+
     alert(currentDate);
-    var welcomAlert = '                            :: Welcome to ComOn ::'
-    alert(welcomAlert);
+    alert(welcomeStr);
+}
+
+function PrintTeamMember() {
+
+    var teamMember = '\n                                    :: Team 5 ::\n\n';
+
+    teamMember += '                      Geon-Ho Yun  &  Hyo-Bi Lim\n';
+    teamMember += '                    Young-Eun Kim  &  Eun-Hyuk Woo\n';
+
+    alert(teamMember);
 }
