@@ -244,6 +244,9 @@
     <None Include="PurchaseSite_Office_Cost_Software.html" />
     <None Include="PurchaseSite_Office_Performance_Hardware.html" />
     <None Include="PurchaseSite_Office_Performance_Software.html" />
+    <None Include="_Document\1. 제안서 - 최종.pdf" />
+    <None Include="_Document\2. 중간보고서 - 최종.pdf" />
+    <None Include="_Document\3. 발표 Web - 최종.pptx" />
     <None Include="_Home.html" />
     <None Include="_KnowParts.html" />
     <None Include="_PurchaseSite.html" />

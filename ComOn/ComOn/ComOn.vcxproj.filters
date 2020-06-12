@@ -22,6 +22,9 @@
     <Filter Include="JavaScript">
       <UniqueIdentifier>{acfe57d8-44db-4a0b-b2be-9419f287bb2b}</UniqueIdentifier>
     </Filter>
+    <Filter Include="_Document">
+      <UniqueIdentifier>{44f08b1c-d324-4818-a149-8d510db2e360}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <None Include="Home.html">
@@ -365,6 +368,15 @@
     </None>
     <None Include="JavaScript\Global.js">
       <Filter>JavaScript</Filter>
+    </None>
+    <None Include="_Document\1. 제안서 - 최종.pdf">
+      <Filter>_Document</Filter>
+    </None>
+    <None Include="_Document\2. 중간보고서 - 최종.pdf">
+      <Filter>_Document</Filter>
+    </None>
+    <None Include="_Document\3. 발표 Web - 최종.pptx">
+      <Filter>_Document</Filter>
     </None>
   </ItemGroup>
 </Project>
