@@ -1,0 +1,38 @@
+1. Document
+  - 문서
+
+2. Assets
+  - 사이트에서 사용하는 이미지 파일
+
+3. Css
+  - 외부 Css 파일 모음
+
+4. JavaScript 
+  - 외부 자바스크립트 파일 모음
+
+5. 파일 목록
+  1) __MainFrame*.html
+      : 주석 자세하게 작성
+      : 모든 페이지의 기본 틀
+
+  2) _*.html
+      : 주석 작성
+      : 참고(레퍼런스)할 수 있는 페이지
+
+  3) Home, Intro
+      : 개발 완료
+
+  4) KnowParts*.html
+      : 개발 완료
+
+  5) Preset_Game_High*.html
+      : 개발 완료
+
+  6) PurchaseSite_Game_High_Performance*.html
+      : 개발 완료
+
+  7) 나머지
+      : 내용만 더미 데이터
+
+즉, 인트로->홈페이지->게임->배틀그라운드->원활한 성능 외의 견적은 더미 데이터로 채워져 있음
+

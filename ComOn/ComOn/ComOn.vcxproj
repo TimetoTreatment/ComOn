@@ -252,7 +252,6 @@
     <None Include="_PurchaseSite.html" />
     <None Include="_PurchaseSite_Hardware.html" />
     <None Include="_PurchaseSite_Software.html" />
-    <None Include="_Test.html" />
     <None Include="__MainFrameLeftBox.html" />
     <None Include="__MainFrameList.html" />
   </ItemGroup>

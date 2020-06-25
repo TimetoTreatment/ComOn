@@ -354,9 +354,6 @@
     <None Include="_PurchaseSite_Software.html">
       <Filter>HTML_Frame</Filter>
     </None>
-    <None Include="_Test.html">
-      <Filter>페이지</Filter>
-    </None>
     <None Include="__MainFrameLeftBox.html">
       <Filter>HTML_Frame</Filter>
     </None>

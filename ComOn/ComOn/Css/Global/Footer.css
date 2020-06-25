@@ -1,4 +1,16 @@
-﻿footer {
+﻿/*-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+//
+// Footer.css
+//
+//-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+    개요 : 하단 사이트 소개 CSS
+    설명 : 
+        - 해시태그, 팀, 전화번호 등 사이트 소개 레이아웃
+        - HTML과 함께 사용
+*/
+
+footer {
     width: 700px;
     height: 100px;
     text-align: center;
@@ -10,6 +22,9 @@
         float:left;
     }
 
+    /*************/
+    /* 좌측 태그 */
+    /*************/
     footer .footer-tag {
         width: 300px;
         font-weight: bold;
@@ -17,6 +32,9 @@
         text-align: right;
     }
 
+    /***************/
+    /* 중앙 아이콘 */
+    /***************/
     footer .footer-icon {
         text-align: left;
     }
@@ -25,6 +43,9 @@
             transform: scale(1.05, 1.05);
         }
 
+    /***************/
+    /* 우측 연락처 */
+    /***************/
     footer .footer-contact {
         padding: 5px 10px;
         text-align: left;
