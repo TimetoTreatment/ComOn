@@ -247,6 +247,9 @@
     <None Include="_Document\1. 제안서 - 최종.pdf" />
     <None Include="_Document\2. 중간보고서 - 최종.pdf" />
     <None Include="_Document\3. 발표 Web - 최종.pptx" />
+    <None Include="_Document\결과보고서\1. 결과보고서.hwp" />
+    <None Include="_Document\결과보고서\2. 발표.pptx" />
+    <None Include="_Document\결과보고서\3. 설명서.pptx" />
     <None Include="_Home.html" />
     <None Include="_KnowParts.html" />
     <None Include="_PurchaseSite.html" />
